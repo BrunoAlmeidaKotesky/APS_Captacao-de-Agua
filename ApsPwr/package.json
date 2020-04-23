@@ -1,0 +1,22 @@
+{
+  "name": "apspwr",
+  "version": "1.0.0",
+  "description": "Site para a matéria PWR",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --declaration --module esnext src/typescript/utils.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviEstevam02/ApsPwr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviEstevam02/ApsPwr/issues"
+  },
+  "homepage": "https://github.com/daviEstevam02/ApsPwr#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

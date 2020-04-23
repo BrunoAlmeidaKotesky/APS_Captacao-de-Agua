@@ -1,0 +1,133 @@
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+/* Celular de ate 720 de largura*/
+@media only screen and (max-width: 720px) {
+    
+    main {
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    
+    #titulo {
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
+    }
+    #navigation {
+        top: 0;
+        width: 5rem;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 100%;
+        width: 60%;
+    }
+
+    .link-text {
+        display: none;
+        margin-left: 1rem;
+    }
+
+    ul.lista-links {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        text-decoration: none;
+        align-items: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-items: center;
+        transition: 600ms;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    ul.lista-links li {
+        margin: 0 0 0 4px;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.lista-links li img {
+        height: 24px;
+        width: 35% !important;
+        margin-right: 5px;
+    }
+
+    .secondSectionParagraph {
+        color: #ffffff;
+        text-align: center;
+        padding: 10px !important;
+    }
+
+    .secao2-content {
+        background-color: #6cff7759;
+        width: 90;
+        margin: 0 auto;
+    }
+
+    .secondParallax {
+        background-image: url('../icons/backgroudImage-3.png');
+        opacity: 0.9;
+        height: 100% !important;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 5rem;
+        background-size: cover;
+    }
+
+    #navigation:hover #linkUm {
+        display: inline;
+    }
+
+    #linkUm {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .thirdParallax {
+        background-image: url('../icons/parallax-3.jpg');
+        opacity: 0.9;
+        height: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 5rem;
+        background-size: cover;
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 400px) {
+    .text {
+        font-size: 11px
+    }
+#titulo {
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+
+}
+    .secao2-content{
+        font-size: 14px;
+    }
+}
