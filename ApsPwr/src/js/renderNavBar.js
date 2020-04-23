@@ -8,7 +8,12 @@ function renderNavBar() {
                            {id: "contactIcon", image: "../icons/contactIcon.png",text: "Contato"}];
 
     navAttributes.forEach((it, idx) => {
-       icons += `<li><a id="linkUm" href="#secao-${idx+1}">
+       let page = window.location.pathname;
+       let href;
+       if(page.endsWith('index.html'))
+        href = (idx+1) < 3 ?  `#secao-${idx+1}` : "../pages/contacts.html";
+       else if(page.endsWith('contacts.html')) href = (idx+1) === 1 ?  "../pages/index.html" : (idx+1) === 2 ? `../pages/index.html#secao-${idx+1}`: '';
+       icons += `<li><a id="linkUm" href="${href}">
                      <img id="${it.id}" src="${it.image}" width=10 height=10>
                      <span class="link-text">${it.text}</span>
                     </a>
