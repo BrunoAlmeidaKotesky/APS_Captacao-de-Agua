@@ -4,12 +4,6 @@
     }
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
-    }
-}
 
 /* Celular de ate 720 de largura*/
 @media only screen and (max-width: 720px) {
@@ -114,6 +108,32 @@
         margin-left: 5rem;
         background-size: cover;
     }
+
+    .back-to-top {
+        position: fixed;
+        z-index: 9999;
+        bottom: 0;
+        right: 0;
+        height: 35px;
+        text-align: center;
+        width: 35px;
+        line-height: 0px;
+        background: #34efad;
+        color: #fff !important;
+        font-size: 50px;
+        margin-right: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 2rem/1 FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+    }
+    
 }
 
 /* On smaller screens, decrease text size */

@@ -32,6 +32,34 @@ html {
   scroll-behavior: smooth;
 }
 
+.back-to-top {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  line-height: 50px;
+  background: #34efad;
+  color: #fff !important;
+  font-size: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa::before{
+  content: "\f106";
+}
+
 .thirdParallax {
   background-image: url("../icons/parallax-3.jpg");
   opacity: 0.9;
