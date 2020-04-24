@@ -7,7 +7,6 @@ body,
 html,
 main {
   height: 100vh;
-  background: aquamarine;
 }
 
 body {
@@ -37,9 +36,7 @@ html {
   background-image: url("../icons/parallax-3.jpg");
   opacity: 0.9;
   /* Set a specific height */
-  height: 100vh;
-
-
+  height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -197,6 +194,20 @@ html {
   animation-duration: 2.75s;
 }
 
+.delimiter{
+  height: 100%;
+  width: 100%;
+}
+.grid{
+    width: 75%;
+    margin-right: auto;
+    display: grid;
+    padding: 130px 15px 0 15px;
+    margin-left: auto;
+    margin-top: auto;
+    grid-template-areas: "c1 c2 c3";
+    grid-gap: 15px;
+}
 
 
 @-webkit-keyframes fade {

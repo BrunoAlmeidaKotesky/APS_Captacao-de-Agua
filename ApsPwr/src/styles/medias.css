@@ -117,7 +117,7 @@
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 470px) {
     .text {
         font-size: 11px
     }
@@ -130,4 +130,43 @@
     .secao2-content{
         font-size: 14px;
     }
+    .grid{
+    width: 80%;
+    margin-right: auto;
+    display: grid;
+    margin-left: auto;
+    margin-top: auto;
+    grid-template-areas: "c1 c2 c3";
+    grid-gap: 5px;
+    padding: 40px 0px 40px 0px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .grid {
+        width: 75%;
+        margin-right: auto;
+        display: flex;
+        margin-left: auto;
+        margin-top: auto;
+        grid-template-areas: "c1 c2 c3";
+        grid-gap: 5px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+        flex-flow: column;
+    }
+    .slideshow-container{
+        width: 100%;
+    }
+
 }
