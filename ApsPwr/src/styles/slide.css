@@ -2,7 +2,8 @@
     position: relative;
     display:flex;
     flex-wrap: wrap;
-    margin: 80px;
+    margin: 15px;
+    width: 75%;
     align-items: center;
   }
 

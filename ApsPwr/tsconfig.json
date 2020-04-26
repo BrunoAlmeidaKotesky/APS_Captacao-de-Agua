@@ -14,7 +14,7 @@
         "noImplicitAny": false,
         "module": "esnext",
         "skipLibCheck": true,
-        "lib": ["DOM","ES2020", "ESNext", "ES2020.String"]
+        "lib": ["DOM","ES2020", "ESNext", "ES2020.String", "es6"]
     },
     "compileOnSave": true,
     "include": ["src/typescript"],

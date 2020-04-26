@@ -7,7 +7,10 @@
 
 /* Celular de ate 720 de largura*/
 @media only screen and (max-width: 720px) {
-    
+    .contacts-section{
+        padding-top: 0;
+        padding-left: 5rem;
+    }
     .main-content {
         margin-left: 5rem;
         padding: 1rem;
@@ -88,10 +91,6 @@
         background-size: cover;
     }
 
-    #navigation:hover #linkUm {
-        display: inline;
-    }
-
     #linkUm {
         display: flex;
         width: 100%;
@@ -133,7 +132,36 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
     }
-    
+
+    .formas-de-uso {
+        background: white;
+        border-left: 10px solid #1C6EA4;
+        border-top: 10px solid #1C6EA4;
+        border-radius: 10px;
+        /* text-align: center; */
+        margin-top: 15px;
+        word-break: normal;
+        padding: 10px;
+        word-wrap: break-word;
+    }
+    .grid {
+        width: 75%;
+        margin-right: auto;
+        display: flex;
+        margin-left: auto;
+        margin-top: auto;
+        grid-template-areas: "c1 c2 c3";
+        grid-gap: 5px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+        flex-flow: column;
+    }
 }
 
 /* On smaller screens, decrease text size */
@@ -150,19 +178,35 @@
     .secao2-content{
         font-size: 14px;
     }
-    .grid{
-    width: 80%;
-    margin-right: auto;
-    display: grid;
-    margin-left: auto;
-    margin-top: auto;
-    grid-template-areas: "c1 c2 c3";
-    grid-gap: 5px;
-    padding: 40px 0px 40px 0px;
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-bottom: 40px;
-    padding-left: 0px;
+    .grid {
+        width: 75%;
+        margin-right: auto;
+        display: flex;
+        margin-left: auto;
+        margin-top: auto;
+        grid-template-areas: "c1 c2 c3";
+        grid-gap: 5px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+        flex-flow: column;
+    }
+
+    .formas-de-uso {
+        background: white;
+        border-left: 10px solid #1C6EA4;
+        border-top: 10px solid #1C6EA4;
+        border-radius: 10px;
+        /* text-align: center; */
+        margin-top: 15px;
+        word-break: normal;
+        padding: 10px;
+        word-wrap: break-word;
     }
 }
 

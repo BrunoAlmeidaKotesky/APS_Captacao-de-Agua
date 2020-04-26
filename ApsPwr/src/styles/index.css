@@ -59,9 +59,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.fa::before{
-  content: "\f106";
-}
 
 .main-img{
     position: absolute;
@@ -126,6 +123,10 @@ html {
 
 }
 
+.contacts-section{
+  padding-top: 3rem;
+  height: 100%;
+}
 
 #titulo {
   text-align: center;
@@ -161,19 +162,6 @@ html {
   text-align: center;
   padding: 100px 30px;
 }
-
-/* Slideshow container */
-.slideshow-container {
-  /*! position: relative; */
-  /*! display:flex; */
-  /*! flex-wrap: wrap; */
-  /*! margin: 0 auto; */
-  /*! align-content: center; */
-  width: 50%;
-  /*! margin: 0 auto; */
-  /*! justify-content: center; */
-}
-
 #secao-1 {
   width: 100%;
   display: grid;
@@ -320,4 +308,14 @@ a:hover {
   align-items: center;
   justify-content: center;
 
+}
+
+.formas-de-uso{
+  background: white;
+  border-left: 10px solid #1C6EA4;
+  border-top: 10px solid #1C6EA4;
+  border-radius: 10px;
+  word-break: normal;
+  padding: 10px;
+  word-wrap: break-word;
 }
