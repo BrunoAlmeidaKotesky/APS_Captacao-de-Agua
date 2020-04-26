@@ -8,7 +8,7 @@
 /* Celular de ate 720 de largura*/
 @media only screen and (max-width: 720px) {
     
-    main {
+    .main-content {
         margin-left: 5rem;
         padding: 1rem;
     }

@@ -21,3 +21,22 @@ export var debouncer = function (fn, wait, time) {
         }
     };
 };
+export function toggleNavCollor() {
+    function isInViewport(elem) {
+        var bounding = elem.getBoundingClientRect();
+        if (bounding.top <= 0 &&
+            bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+            return false;
+    }
+    ;
+    window.addEventListener('scroll', function () {
+        var main = $('.main-content');
+        var nav = $("#navigation");
+        if (isInViewport(main) === false) {
+            nav.style.backgroundColor = 'white';
+        }
+        else
+            nav.style.backgroundColor = "#ffffff00";
+    });
+}
+toggleNavCollor();

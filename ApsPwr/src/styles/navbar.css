@@ -1,4 +1,4 @@
-main {
+.main-content {
     padding: 3rem;
 }
 
@@ -12,9 +12,10 @@ main {
     width: 100vw;
     z-index: 999999;
     text-transform: capitalize;
-    background-color: #ffffff;
 }
-
+.inv-nav{
+    background-color: transparent;
+}
 ul.lista-links {
     list-style: none;
     display: flex;

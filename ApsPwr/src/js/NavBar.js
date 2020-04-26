@@ -36,3 +36,4 @@ class NavBar{
     
 }
 NavBar.renderNavBar();
+
