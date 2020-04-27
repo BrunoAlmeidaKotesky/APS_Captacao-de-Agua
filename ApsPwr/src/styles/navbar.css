@@ -10,6 +10,7 @@
     margin: 0;
     position: fixed;
     width: 100vw;
+    transition: transform 1s ease-in;
     z-index: 999999;
     text-transform: capitalize;
 }

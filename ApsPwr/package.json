@@ -4,7 +4,7 @@
   "description": "Site para a matéria PWR",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --declaration --module esnext src/typescript/utils.ts"
+    "build": "tsc --declaration --module esnext src/utils/utils.ts"
   },
   "repository": {
     "type": "git",
