@@ -18,13 +18,25 @@ export function toggleNavCollor() {
         let main = $('.main-content');
         let nav = $("#navigation") as HTMLElement;
         let hideLogo =  $('#titulo') as HTMLElement;
+        let contact = $$('#contactIcon') as NodeListOf<HTMLImageElement>;
+        let home = $('#homeIcon') as HTMLImageElement;
+        let linkText = $$('#linkUm');
+
         if(isInViewport(main) === false){
             nav.style.backgroundColor = 'white';
             hideLogo.style.visibility = 'visible';
+            linkText.forEach((t:HTMLElement) => t.style.color = "black");
+            contact[0].src = "../icons/page-icon-png-3.png";
+            contact[1].src = "../icons/contactIcon.png";
+            home.src = "../icons/homeIcon.png";
         }
         else {
-            nav.style.backgroundColor = "#ffffff00";
+            nav.style.backgroundColor = "rgba(69, 61, 61, 0.48)";
             hideLogo.style.visibility = 'hidden';
+            linkText.forEach((t:HTMLElement) => t.style.color = "white");
+            contact[0].src = "../icons/page-icon-png-3W.png";
+            contact[1].src = "../icons/contactIconW.png";
+            home.src = "../icons/homeIconW.png";
         }
     })
 }

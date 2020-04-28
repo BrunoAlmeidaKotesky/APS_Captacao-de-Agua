@@ -68,7 +68,7 @@ html {
     bottom: 0;
     height: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/30/14/57/rain-1489133_960_720.jpg);
-    filter: blur(1.5px);
+    filter: blur(1.75px);
     z-index: -1;
     background-attachment: fixed;
     background-position: center;
