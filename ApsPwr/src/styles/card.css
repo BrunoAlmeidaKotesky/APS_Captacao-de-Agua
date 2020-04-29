@@ -101,7 +101,6 @@
 .img-wrapper ul li {
     background: #333;
     height: 35x;
-    width: 35px;
     text-align: center;
     line-height: 40px;
     transform: perspective(800px) rotateY(90deg);

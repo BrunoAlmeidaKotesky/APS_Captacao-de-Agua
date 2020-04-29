@@ -2,8 +2,9 @@
     position: relative;
     display:flex;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: auto 0;
     width: 75%;
+    flex-direction: column;
     align-items: center;
   }
 

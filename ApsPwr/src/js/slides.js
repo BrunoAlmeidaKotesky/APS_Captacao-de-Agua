@@ -35,13 +35,14 @@ class SlideshowContainer {
       <img src="https://assets.change.org/photos/8/qv/ol/HBQVolKQfRiZBfi-800x450-noPad.jpg?1523383630"  class="imgContainer">
       <div class="text">Como faço para coletar?</div>
     </div>
-    
+
+      <div style="text-align:center; padding-top: 7.5px;">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
     </div>
-    <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-    </div>`;
+    `;
 
   }
 }
