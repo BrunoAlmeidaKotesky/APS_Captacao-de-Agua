@@ -40,7 +40,7 @@ class NavBar {
 
         const navBarElemtns = `
             <div id="titulo" ${page.endsWith('index.html') ? `style="visibility: hidden";` : ''}>
-                <a id="link" href="#secao-1"><img class="logo" src="../icons/iconPage.png" alt="" height="60px"></a>
+                <img class="logo" src="../icons/iconPage.png" alt="" height="60px">
             </div>
             <ul class="lista-links">
             ${icons}

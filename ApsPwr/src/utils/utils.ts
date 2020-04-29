@@ -14,6 +14,14 @@ export function toggleNavCollor() {
            bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight))
             return false;
     }
+    window.addEventListener('load', ()=> {
+        if(window.innerWidth <= 720){
+            let nav = $("#navigation") as HTMLElement;
+            let hideLogo =  $('#titulo') as HTMLElement;
+            hideLogo.style.visibility = "visible";
+            nav.style.background = "white";
+        }
+    });
     
     window.addEventListener('scroll' , ()=> {
         let main = $('.main-content');
@@ -22,7 +30,7 @@ export function toggleNavCollor() {
         let contact = $$('#contactIcon') as NodeListOf<HTMLImageElement>;
         let home = $('#homeIcon') as HTMLImageElement;
         let linkText = $$('#linkUm');
-
+        if(window.innerWidth >= 720){
         if(isInViewport(main) === false){
             nav.style.backgroundColor = 'white';
             hideLogo.style.visibility = 'visible';
@@ -39,6 +47,7 @@ export function toggleNavCollor() {
             contact[1].src = "../icons/contactIconW.png";
             home.src = "../icons/homeIconW.png";
         }
+    }
     })
 }
 let page = window.location.pathname;
