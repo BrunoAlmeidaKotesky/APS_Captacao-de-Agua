@@ -132,16 +132,16 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
     }
-
+    .formas-grid{
+        margin-bottom: 15px;
+    }
     .formas-de-uso {
         background: white;
-        border-left: 10px solid #1C6EA4;
-        border-top: 10px solid #1C6EA4;
-        border-radius: 10px;
-        /* text-align: center; */
         margin-top: 15px;
+        max-height: 200px;
+        overflow: auto;
         word-break: normal;
-        padding: 10px;
+        padding: 16px;
         word-wrap: break-word;
     }
     .grid {
@@ -199,13 +199,11 @@
 
     .formas-de-uso {
         background: white;
-        border-left: 10px solid #1C6EA4;
-        border-top: 10px solid #1C6EA4;
-        border-radius: 10px;
-        /* text-align: center; */
         margin-top: 15px;
         word-break: normal;
-        padding: 10px;
+        padding: 16px;
+        max-height: 200px;
+        overflow: auto;
         word-wrap: break-word;
     }
 }

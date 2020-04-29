@@ -32,7 +32,7 @@ class SlideshowContainer {
     </div>
     
     <div class="mySlides fade">
-      <img src="../icons/EnzoPicture.jpg"  class="imgContainer">
+      <img src="https://assets.change.org/photos/8/qv/ol/HBQVolKQfRiZBfi-800x450-noPad.jpg?1523383630"  class="imgContainer">
       <div class="text">Como faço para coletar?</div>
     </div>
     

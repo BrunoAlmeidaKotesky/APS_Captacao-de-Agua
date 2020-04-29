@@ -13,7 +13,8 @@ export function toggleNavCollor() {
         if(bounding.top <= 0 &&
            bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight))
             return false;
-    };
+    }
+    
     window.addEventListener('scroll' , ()=> {
         let main = $('.main-content');
         let nav = $("#navigation") as HTMLElement;

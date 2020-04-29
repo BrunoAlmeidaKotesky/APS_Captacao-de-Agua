@@ -181,6 +181,7 @@ html {
   border-radius: 10px;
   height: 250px;
   outline: paleturquoise;
+  object-fit: cover;
   border-color: black;
 
 }
@@ -319,12 +320,26 @@ a:hover {
 
 }
 
-.formas-de-uso{
+.formas-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background: white;
   border-left: 10px solid #1C6EA4;
   border-top: 10px solid #1C6EA4;
-  border-radius: 10px;
+  border-radius: 14px;
+}
+
+.formas-img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.formas-de-uso{
+  background: white;
   word-break: normal;
-  padding: 10px;
+  max-height: 200px;
+  overflow: auto;
+  padding: 24px;
   word-wrap: break-word;
 }
