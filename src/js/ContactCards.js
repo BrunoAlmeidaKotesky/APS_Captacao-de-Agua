@@ -4,10 +4,10 @@ class ContactCards{
   static renderCards(){
     const cardImgArea = $('.img-area');
     const userProfiles = [
-        {nome: 'Bruno Almeida Kotesky',photo: '../icons/IMG_1543.jpg'},
-        { nome: 'Renzo Hideki',photo: '../icons/RenzoPicture.jpg'},
-        {nome: 'Lucas', photo: '../icons/LucasPicture.jpg'},
-        { nome: 'Gustavo',photo: '../icons/IMG_1543.jpg'}
+        {nome: 'Bruno Almeida Kotesky',photo: 'src/icons/IMG_1543.jpg'},
+        { nome: 'Renzo Hideki',photo: 'src/icons/RenzoPicture.jpg'},
+        {nome: 'Lucas', photo: 'src/icons/LucasPicture.jpg'},
+        { nome: 'Gustavo',photo: 'src/icons/IMG_1543.jpg'}
     ];
     
     userProfiles.forEach(card => {

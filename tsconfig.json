@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "noEmit": false,
+        "target": "es2019",
+        "importHelpers": true,
+        "outDir": "lib",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports":true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "esnext",
+        "skipLibCheck": true,
+        "lib": ["DOM","ES2020", "ESNext", "ES2020.String", "es6"]
+    },
+    "compileOnSave": true,
+    "include": ["src/utils"],
+    "exclude": [
+        "node_modules",
+        "tests",
+        "examples",
+        "lib",
+        "**/__tests__/*"
+      ],
+      
+}
