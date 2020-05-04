@@ -149,20 +149,29 @@ html {
   width: 88.8%;
   margin: 0 auto;
   height: 50%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  overflow: auto;
 }
 
 .titleSecondSection {
   color: #ffffff;
   font-size: 25px;
   text-align: center;
-  padding: 55px 0px 40px;
+  padding: 35px;
 }
 
 .secondSectionParagraph {
   color: #ffffff;
   text-align: center;
-  padding: 100px 30px;
+  padding: 10px;
+  font-weight: 600;
 }
+.sSP-first{
+  padding: 25px;
+}
+
 #secao-1 {
   width: 100%;
   display: flex;

@@ -5,7 +5,7 @@ class TextGrid {
         let gridPosition = $('.delimiter');
 
         gridPosition.innerHTML = `<div class="grid">
-        <h2 style="grid-column: 2/4;">Benefícios da captação da água da chuva</h2>
+        <h2 style="grid-column: 2/4; text-align: center; padding-bottom: 7.5px">Benefícios da captação da água da chuva</h2>
         <div class="formas-grid" style="grid-column: c1-start/c4-end;">
             <img src="https://www.hometeka.com.br/wp-content/uploads/2016/02/captar-750x500.jpg" class="formas-img" width="150px" alt="">
             <div class="formas-de-uso"><h3 style="text-align: center; padding-bottom: 5px;">Sustentabilidade</h3>
