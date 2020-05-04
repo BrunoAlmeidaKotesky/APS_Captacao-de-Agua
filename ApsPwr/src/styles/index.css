@@ -90,15 +90,8 @@ html {
 }
 
 .secondParallax {
-  background-image: url("../icons/backgroudImage-3.png");
-  opacity: 0.9;
-  /* Set a specific height */
   height: 100vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
 
 .secondParallax::before {
@@ -142,6 +135,7 @@ html {
 #secao-2 {
   height: 100%;
   width: 100%;
+  position: absolute;
 }
 
 .secao2-content {
@@ -153,6 +147,23 @@ html {
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
   overflow: auto;
+}
+.second-image{
+  background-image: url("../icons/backgroudImage-3.png");
+    opacity: 0.9;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    filter: blur(1.3px);
 }
 
 .titleSecondSection {
