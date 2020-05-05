@@ -1,8 +1,7 @@
-import {$} from '../utils/utils.js';
 
 class ContactCards{
   static renderCards(){
-    const cardImgArea = $('.img-area');
+    const cardImgArea = document.querySelector('.img-area');
     const userProfiles = [
         {nome: 'Bruno Almeida Kotesky',photo: 'src/icons/IMG_1543.jpg'},
         { nome: 'Renzo Hideki',photo: 'src/icons/RenzoPicture.jpg'},

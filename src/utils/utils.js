@@ -1,10 +1,10 @@
-export function $(selector) {
+ function $(selector) {
     return document.querySelector(selector);
 }
-export function $$(selector) {
+ function $$(selector) {
     return document.querySelectorAll(selector);
 }
-export function toggleNavCollor() {
+function toggleNavCollor() {
     function isInViewport(elem) {
         var bounding = elem.getBoundingClientRect();
         if (bounding.top <= 0 &&

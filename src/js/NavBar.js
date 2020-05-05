@@ -1,11 +1,10 @@
-import {$} from '../utils/utils.js'
 
 class NavBar {
 
     static renderNavBar() {
         let icons = '';
         let page = window.location.pathname;
-        const navBar = $('#navigation');
+        const navBar = document.querySelector('#navigation');
         const navAttributes = [{
                 id: "homeIcon",
                 image: page.endsWith('index.html') && window.innerWidth >= 720 ? "src/icons/homeIconW.png" : "src/icons/homeIcon.png",

@@ -1,8 +1,7 @@
-import {$} from '../utils/utils.js';
 
 class TextGrid {
     static renderGrid() {
-        let gridPosition = $('.delimiter');
+        let gridPosition = document.querySelector('.delimiter');
 
         gridPosition.innerHTML = `<div class="grid">
         <h2 style="grid-column: 2/4; text-align: center; padding-bottom: 7.5px">Benefícios da captação da água da chuva</h2>

@@ -1,12 +1,12 @@
 
-export function $(selector: string){ 
+function $(selector: string){ 
     return document.querySelector(selector)
 }
-export function $$(selector: string) {
+function $$(selector: string) {
     return document.querySelectorAll(selector);
 }
 
-export function toggleNavCollor() {
+function toggleNavCollor() {
 
     function isInViewport (elem: Element) {
         let bounding = elem.getBoundingClientRect();
