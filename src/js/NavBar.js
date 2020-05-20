@@ -28,7 +28,7 @@ class NavBar {
                 href = (idx + 1) < 3 ? `#secao-${idx+1}` : "contacts.html";
             else if (page.endsWith('contacts.html'))
                 href = (idx + 1) === 1 ? "index.html" : (idx + 1) === 2 ? `index.html#secao-${idx+1}` : '';
-            icons += `<li><a id="linkUm" href="${href}" ${page.endsWith('index.html') ? `style="color: white;"` : ''}>
+            icons += `<li><a id="linkUm" href="${href}" class="link-to-${idx}" ${page.endsWith('index.html') ? `style="color: white;"` : ''}>
                          <img id="${it.id}" src="${it.image}" width=10 height=10>
                          <span class="link-text">${it.text}</span>
                         </a>

@@ -21,17 +21,17 @@ class SlideshowContainer {
   async renderSlider(){
     let slideshowCont = document.querySelector('#secao-1');
     slideshowCont.innerHTML = `<div class="slideshow-container">
-    <div class="mySlides fade">
+    <a href="cisternas.html"><div class="mySlides fade">
       <img src="https://cdn4.ecycle.com.br/cache/images/materias/Pegue-Leve/2015-05/50-650-cisternas-vertical-modular-1000-litros-filtro-750.jpg" class="imgContainer" >
       <div class="text">O que são cisternas?</div>
-    </div>
+    </div></a>
     
-    <div class="mySlides fade">
+    <a href="porque-captar.html"><div class="mySlides fade">
       <img src="https://www.mapadaobra.com.br/wp-content/uploads/2016/12/novo-layout1.png" class="imgContainer" >
       <div class="text">Por que devemos captar?</div>
-    </div>
+    </div></a>
     
-    <div class="mySlides fade">
+    <a href="como-coletar.html"><div class="mySlides fade">
       <img src="https://assets.change.org/photos/8/qv/ol/HBQVolKQfRiZBfi-800x450-noPad.jpg?1523383630"  class="imgContainer">
       <div class="text">Como faço para coletar?</div>
     </div>

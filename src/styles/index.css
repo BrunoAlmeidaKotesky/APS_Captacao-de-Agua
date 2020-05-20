@@ -68,14 +68,26 @@ html {
     bottom: 0;
     height: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/30/14/57/rain-1489133_960_720.jpg);
-    filter: blur(1.75px);
+    filter: blur(2.25px);
     z-index: -1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.footer{
+  background: #00000061;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  color: wheat;
+  font-size: 12px;
+  text-align: end;
+  width: 100%;
+  right: 0;
+  padding: 0 10px;
+  height: 18.2px;
+}
 .thirdParallax {
   background-image: url("../icons/parallax-3.jpg");
   opacity: 0.9;
@@ -163,7 +175,7 @@ html {
     right: 0;
     bottom: 0;
     height: 100%;
-    filter: blur(1.3px);
+    filter: blur(2.15px);
 }
 
 .titleSecondSection {

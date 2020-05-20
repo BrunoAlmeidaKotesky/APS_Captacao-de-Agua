@@ -5,8 +5,7 @@ class ContactCards{
     const userProfiles = [
         {nome: 'Bruno Almeida Kotesky',photo: 'src/icons/IMG_1543.jpg'},
         { nome: 'Renzo Hideki',photo: 'src/icons/RenzoPicture.jpg'},
-        {nome: 'Lucas', photo: 'src/icons/LucasPicture.jpg'},
-        { nome: 'Gustavo',photo: 'src/icons/IMG_1543.jpg'}
+        { nome: 'Gustavo C. Fernandes',photo: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Question_mark.png'}
     ];
     
     userProfiles.forEach(card => {
