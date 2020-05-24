@@ -88,6 +88,12 @@ html {
   padding: 0 10px;
   height: 18.2px;
 }
+
+.footer a{
+  text-decoration: none;
+  color: wheat;
+}
+
 .thirdParallax {
   background-image: url("../icons/parallax-3.jpg");
   opacity: 0.9;

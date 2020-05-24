@@ -76,3 +76,27 @@ if(page.endsWith('porque-captar.html')){
     <p>Dentre estes benefícios, o governo também incentiva esta prática por meio de benefícios para quem utiliza deste método, o que pode ser visto na <strong>Lei 13.501/2017</strong>, que em algumas cidades oferecem redução no IPTU para residências que possuem este sistema.</p>
     </article>`);
 }
+
+if(page.endsWith('como-coletar.html')){
+    content.renderInfo(`<article style="height: 100%; padding: 12px; display:grid;">
+    <h2 style="padding-bottom: 12px;">Como Faço para coletar?</h2>
+    <p>Para se captar a água da chuva é necessário a instalação  de uma cisterna, de acordo com as normas da ABNT é necessário se cumprir três pontos básicos:</p>
+    <p><strong>Dimensionamento</strong>, que muda dependendo de fatores como a área do telhado a qualidade da água, <strong>origem</strong> e <strong>uso da água coletada</strong>, que se faz a instalação de filtros e apetrechos específicos para se garantir uma qualidade decente da água.</p>
+    <p>A parte mais importante para instalação de uma cisterna é dimensionamento, pois é necessário o estudo da estrutura da sua casa, por conta disso é recomendado o contravento de um profissional para se ter uma instalação sem problema (principalmente se você for instalar a sua cisterna em baixo da terra).</p> 
+    <p>Quantos aos filtros muitas cisternas já vem com filtros já instalados, caso a sua cisterna não venha com filtro já instalados a construção do seu filtro deve ser feita com muito cuidado ou um profissional deve ser consultado, pois o filtro é a parte mais importante para uso da cisterna.</p>
+ </article>`);
+}
+
+if(page.endsWith('referencias.html')){
+    content.renderInfo(`<article style="height: 100%; padding: 12px; display:grid;">
+    <h2 style="padding-bottom: 12px;">Referências</h2>
+<p>BRASÍLIA IV - Incentivar e promover a captação, a preservação e o aproveitamento de águas pluviais. LEI Nº 13.501, DE 30 DE OUTUBRO DE 2017.</p>
+<p>COLLA, Lizzi Lemos. Sistemas de Captação e Aproveitamento de Água de Chuva. 2008. 80 f. Tcc (Graduação) Curso de Engenharia Ambiental, Universidade Estadual Paulista “Júlio de Mesquita Filho", Sorocaba, 2008. 
+<p>CONSTRUTORA, Aloha. 4 benefícios da captação de água da chuva. Disponível em: <a href="https://alohaconstrutora.com.br/novo/2020/01/21/4-beneficios-da-captacao-de-agua-da-chuva/">https://alohaconstrutora.com.br/novo/2020/01/21/4-beneficios-da-captacao-de-agua-da-chuva/</a>. Acesso em: 01 maio 2020.</p>
+<p>DEMARCHI, Itamar. Aproveitar água de chuva vale a pena? Disponível em: <a href="https://www.linkedin.com/pulse/aproveitar-%C3%A1gua-de-chuva-vale-pena-itamar-demarchi/">https://www.linkedin.com/pulse/aproveitar-%C3%A1gua-de-chuva-vale-pena-itamar-demarchi/</a>. Acesso em: 01 maio 2020.</p>
+<p>ECYCLE, Equipe. Tipos de cisternas: modelos do cimento ao plástico. Disponível em: <a href="https://www.ecycle.com.br/4203-tipos-de-cisternas-modelos-de-plastico-cisterna-ecologica">https://www.ecycle.com.br/4203-tipos-de-cisternas-modelos-de-plastico-cisterna-ecologica</a>. Acesso em: 01 maio 2020.</p>
+<p>ECOCASA. CAPTAÇÃO DE ÁGUA DA CHUVA: POR ONDE COMEÇAR? Disponível em: <a href="https://www.ecocasa.com.br/agua-da-chuva-por-onde-comecar/">https://www.ecocasa.com.br/agua-da-chuva-por-onde-comecar/</a>. Acesso em: 01 maio 2020.</p>
+<p>OLIVEIRA, Frederico Moyle Baeta de. Aproveitamento de água de chuva para fins não potáveis no Campus da Universidade Federal de Ouro Preto – Universidade Federal de Ouro Preto - Ouro Preto, Minas Gerais. [manuscrito] / Frederico Moyle Baeta de Oliveira - 2008.</p>
+<p>SILVA, Gilmar da. APROVEITAMENTO DE ÁGUA DE CHUVA EM UM PRÉDIO INDUSTRIAL E NUMA ESCOLA PÚBLICA: estudo de caso. 2008. 103 f. Tese (Doutorado) - Curso de Engenharia Civil, Universidade Estadual de Campinas, Campinas, 2008.</p>
+ </article>`);
+}
